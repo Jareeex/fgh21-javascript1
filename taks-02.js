@@ -17,12 +17,12 @@ function konversiGrade(nilai) {
     }
 }
 
-var bahasaIndonesia = 85;
-var bahasaInggris = 90;
-var matematika = 75;
-var ipa = 80;
+const bahasaIndonesia = 90;
+const bahasaInggris = 89;
+const mtk = 80;
+const ipa = 69;
 
-var rataRata = hitungRataRataUN(bahasaIndonesia, bahasaInggris, matematika, ipa);
+var rataRata = hitungRataRataUN(bahasaIndonesia, bahasaInggris, mtk, ipa);
 var grade = konversiGrade(rataRata);
 
 console.log("Rata-rata UN: " + rataRata);
