@@ -1,4 +1,4 @@
-var printSegitiga = 5; 
+const printSegitiga = 5; 
 function cetakSegitiga(num) {
         for (var i = num; i >= 1; i--) {
         var row = '';       
