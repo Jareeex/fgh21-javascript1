@@ -36,5 +36,6 @@ var biodata = {
             skillName: "CSS",
             level: "Intermediate"
         }
-    ]
+    ],
+    interestInCoding: True
 }
