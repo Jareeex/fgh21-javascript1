@@ -1,4 +1,4 @@
-var biodata = {
+const biodata = {
     nama: "Fajar",
     umur: 24,
     jenis_kelamin: "Laki-laki",
