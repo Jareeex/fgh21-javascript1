@@ -1,16 +1,16 @@
-function hitungRataRataUN(indonesia, inggris, matematika, ipa) {
-    var rataRata = (indonesia + inggris + matematika + ipa) / 4;
+function hitungRataRataUN(indonesia, inggris, mtk, ipa) {
+    var rataRata = (indonesia + inggris + mtk + ipa) / 4;
     return rataRata;
 }
 
-function konversiGrade(nilai) {
-    if (nilai >= 90 && nilai <= 100) {
+function konversiGrade(rataRata) {
+    if (rataRata >= 90 && nilai <= 100) {
         return 'A';
-    } else if (nilai >= 80 && nilai <= 89) {
+    } else if (rataRata >= 80 && rataRata <= 89) {
         return 'B';
-    } else if (nilai >= 70 && nilai <= 79) {
+    } else if (rataRata >= 70 && rataRata <= 79) {
         return 'C';
-    } else if (nilai >= 60 && nilai <= 69) {
+    } else if (rataRata >= 60 && rataRata <= 69) {
         return 'D';
     } else {
         return 'E';
