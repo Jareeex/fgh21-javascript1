@@ -26,9 +26,5 @@ const newData = {
   }
 };
 
-
-const { street, city } = newData.address;
-
-;
-console.log("Street:", street);
-console.log("City:", city);
+console.log(newData.address.street)
+console.log(newData.address.city)
