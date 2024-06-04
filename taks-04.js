@@ -18,16 +18,11 @@ const newData = {
   ...data,
   name: "Fajar Baswara",
   email: "baswarafajar@gmail.com",
-  hobby: "bermain game",
-  address :{
-    street: "Jalan Wibawa Mukti 2 no,115",
-    city: "Bekasi",
-    zipcode:"17422"
-  }
+  hobby: "bermain game",  
 };
 
 const { street, city } = newData.address;
 
 
-console.log("Street:", street);
-console.log("City:", city);
+console.log(street);
+console.log(city);
